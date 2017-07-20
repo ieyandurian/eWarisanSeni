@@ -1,0 +1,241 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+    /* Code CSS here */
+    
+}
+@media (max-width: 1200px) {
+	.pavcontentslider .thumb-indicators li{
+    	width: 146px;
+    }
+}
+
+/*Ipad landscape*/
+@media (min-width: 979px)   {
+	#page-container{ left: 0!important; }
+	#off-canvas-nav{ display:none !important; }
+
+}
+@media only screen and (max-width: 979px) {
+	.zoomContainer{
+		display: none;
+	}	
+	#search {
+		line-height: normal;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		right: 25px;
+		top: 0;
+	}
+	#mainmenu {
+		width: 100%;
+	}
+	
+/*menu*/	
+	.btn.btn-navbar {
+		float: left;
+		margin-left: 10px;
+		margin-bottom: 3px;
+		padding: 9px 8px;
+	}
+	.navbar-inner {
+		padding : 0 ;
+	}
+	.navbar .btn-navbar {
+		background: #3D9393;
+	}
+
+
+/*cart-top*/
+	.cart-top {
+		margin-bottom: 10px;
+	}
+	
+/*slideshow*/
+	.pavcontentslider .banner-info {
+		bottom: 0;
+		line-height: 16px;
+		min-height: 50px;
+		padding: 10px;
+		right: 0;
+		width: auto;
+	}
+	.banner-info h1 {
+		margin: 3px 0;
+	}
+	.banner-info a.bnt {
+		margin: 5px 0;
+	}
+	.pavcontentslider .thumb-indicators li {
+		width: 20%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+/*customer*/	
+	.media .media-text {
+		max-height: 80px;
+		overflow: hidden;
+	}
+/*produce*/
+	.box-produce .product-inner {
+		width: 88%;
+	}
+	.footer-top .row-fluid [class*="span"],
+	.product-info .row-fluid [class*="span"]{
+		width: 100%;
+		margin-left: 0;
+		display: inline-block;
+	}
+	.product-info .image-additional {
+		clear: none;
+	}
+	.product-list .product-block .wishlist-compare {
+		float: left;
+	}
+	.hidden-phone {
+    display: none !important;
+  }
+}
+/*Ipad Portrait*/
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	
+}
+
+
+/* Iphone 5 landscape */
+@media only screen and (max-width: 767px) {
+	.header-right .login {
+		position: absolute !important;
+		right: 20px;
+		top: 0;
+	}
+	.cart-top.pull-right {
+		position: absolute!important;
+		right: 20px;
+		top: 60px;
+	}
+	#search{
+		width: 40%;
+	}
+	.pavcontentslider .banner-info{
+		display: none;
+	}
+	.pavcontentslider .carousel-inner {
+	 z-index: 20;
+	 }
+	.pavcontentslider .carousel-control {
+		bottom: 134px;
+	}
+	.media .media-body {
+		padding: 10px;
+	}
+	.row-fluid.box-product [class*="span"] {
+		float: left;
+		margin-left: 15px;
+		width: 47%;
+	}
+	.box-produce .product-block{
+		width: 50%!important;
+		float: left;
+	}
+	.box-produce .product-block:before {
+    background: none ;
+    left: 0;
+}
+	
+}
+ 
+ @media only screen and (max-width: 599px){
+
+ 	
+	#header #logo {
+		text-align: center;
+	}
+	.header-right .login {
+		position: relative !important;
+		right: 0;
+		top: 0;
+	}
+	.cart-top.pull-right {
+		position: relative!important;
+		right: 0;
+		top: 0;
+	}
+	#header #cart .content {
+		top: 33px;
+	}
+	.row-fluid.box-product [class*="span"] {
+		float: none;
+		margin-left: 0;
+		width: 100%;
+	}
+	.box-produce .product-block {
+		width: 100% !important;
+	}
+	#search{
+		width: 60%;
+	}
+	 table.compare-info td, 
+    table.compare-info th,
+    table.pav-checkout-product td,
+    table.pav-checkout-product th,
+    table.pav-shop-cart td,
+    table.pav-shop-cart th{
+        border-right: 0 none;
+        display: block !important;
+        float: none !important;
+        text-align: left !important;
+        width: auto !important;
+    }
+	table.pav-shop-cart tr td:before{
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+    width: 50%;
+}
+
+table.pav-shop-cart tr td {
+	text-align:right;
+	display: block;
+	min-height: 20px;
+	border-left: none;
+	background: none;
+}
+	
+ }
+ @media only screen and (min-width: 480px) and (max-width: 599px) {
+}
+/* Iphone 4 landscape */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.currency {
+		margin: 0 0 0 20%;
+	}
+	#header .links {
+		text-align: center;
+	}
+	#header .links a {
+		float: none;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	#header #cart .heading {
+		text-align: left;
+	}
+	#header #cart .content {
+		min-width: 247px;
+		width: 247px;
+	}
+	#search{
+		width: 60%;
+	}
+	.product-block .cart {
+		width: auto;
+	}
+}
+/* Iphone 4 + 5 Portrait */
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+
+
+}

@@ -1,0 +1,227 @@
+a:hover, a:focus {
+	color: #7aa65d;
+}
+.checkout > a, a.button, input.button {
+    background: url(../image/bg_cart.png) repeat-x scroll left bottom #82af64;
+}
+.checkout > a:hover, a.button:hover, input.button:hover {
+    background: #837263;
+}
+ul.list li:hover {
+    background-position: left -67px;
+}
+.listmenu.navbar .nav li a:hover {
+    color: #7aa65d;
+}
+
+.header-right .login a {
+	color: #7aa65d;
+}
+.mainnav-inner {
+    background: url(../image/bg_menu.png) repeat-x scroll 0 0;
+	}
+	.nav.megamenu > li.open, .nav.megamenu > li:hover {
+		background: url(../image/bg_menu_hover.png) repeat-x scroll left center;
+	}
+
+	.navbar .nav > li > .dropdown-menu:after {
+		border-bottom: 6px solid #7AA65D;
+	}
+	.dropdown .dropdown-menu li:hover, .megamenu .dropdown-mega li:hover {
+		background-position: left -62px;
+	}
+.navbar .nav ul li.mega-group li .dropdown-menu-inner,
+.navbar .nav li .dropdown-menu .dropdown-menu-inner {
+		border-top: 5px solid #7AA65D;
+	}
+	.nav .dropdown-toggle:hover .caret, .nav .dropdown-toggle:focus .caret {
+	    border-bottom-color: #7AA65D;
+	    border-top-color: #7AA65D;
+	}
+	.dropdown-menu > li > a:hover,
+	.dropdown-menu > li > a:focus,
+	.dropdown-submenu:hover > a,
+	.dropdown-submenu:focus > a {
+		color: #7aa65d;
+	}
+#header #cart .heading {
+	background-position: left -93px;
+	}
+	#header #cart .heading h4 {
+		color: #837263;
+	}
+	#header #cart .content {
+		border-top: 6px solid #7AA65D;
+	}
+#search input {
+    border: 1px solid #7AA65D;
+	}
+	#search .button-search {
+		background: url(../image/icon_search.png) no-repeat scroll center center #FFFFFF;
+}
+.pavcontentslider .banner-info {
+    background: url(../image/bg-slider.png) repeat scroll 0 0;
+}
+.pavcontentslider .carousel-indicators li.active{ 
+	border: 1px solid #7AA65D;
+}	
+	
+.banner-info a.bnt {
+    border: 3px solid #8F7C74;
+    color: #7AA65D;
+	}
+.media h1 span {
+	color: #7AA65D;
+	}
+	.product-compare a,
+	.media  a.bnt {
+		background: url(../image/bg_input.png) repeat-x scroll left top #76a15a;
+		border-top: 1px solid #7aa65d;
+		border-bottom: 1px solid #6f9854;
+		border-left: 1px solid #749e58;
+		border-right: 1px solid #749e58;
+		color: #fff;
+	}
+.htabs,
+.box-heading h3 {
+    background: url(../image/bg_title.png) repeat scroll left top;
+	}
+	.box-heading h3 span {
+		background: #7aa65d;
+	}
+	
+.product-block .name a:hover {
+    color: #7aa65d;
+}	
+
+.productcarousel .box-heading h3 span {
+    background: #837263;
+}
+	.product-related .product-block:hover .price-cart input.button,
+	.productcarousel .product-block:hover .price-cart input.button,
+	.product-grid .product-block:hover .price-cart input.button {
+		background: #837263;
+	}
+	.productcarousel .carousel-controls a.carousel-control {
+		background-image: url(../image/carousel_control.png);
+	}
+	.productcarousel .carousel-controls a.left{
+		background-position: left top;
+	}.productcarousel .carousel-controls a.left:hover{
+		background-position: left bottom;
+	}
+	.productcarousel .carousel-controls a.right{
+		background-position: -18px top;
+	}
+	.productcarousel .carousel-controls a.right:hover{
+		background-position: -18px bottom;
+	}
+
+	
+.newsletter-submit .button {
+    background-color:#7AA65D!important;
+}
+
+.social .custom_follow a.facebook:hover {
+	background-position: left -72px;
+	}
+	.social .custom_follow a.twitter:hover {
+		background-position: -29px -72px;
+	}
+
+	.social .custom_follow a.mail:hover {
+		background-position: -58px -72px;
+	}
+	.social .custom_follow a.rss:hover {
+		background-position: -87px -72px;
+	}
+	
+.contact-us ul li {
+	background-image: url(../image/icons_contact.png);
+}
+	.contact-us ul li.members {
+		background-position: left 10px;
+	}
+	.contact-us ul li.phone {
+		background-position: left -71px;
+	}
+	.contact-us ul li.fax {
+		background-position: left -140px;
+	}
+	.contact-us ul li.email {
+		background-position: left -210px;
+	}
+.dark .product-block .name a:hover,
+.copyright  a {
+	color: #7aa65d;
+}
+
+.product-filter .display a.list:hover,
+.product-filter .display a.list.active {
+	background-position: -16px -66px;
+}
+	.product-filter .display a.grid:hover,
+	.product-filter .display a.grid.active {
+		background-position: left -66px;
+	}
+.htabs a.selected,	
+.category-list ul li a {
+    background-color: #7aa65d;
+	}
+	.htabs a,
+	.category-list ul li a:hover {
+		background-color: #837263;
+		color: #fff;
+	}
+	.product-info .description,
+	.product-info .review,
+.product-info .price-cart,
+.product-grid, .product-list {
+    background: url(../image/bg_title.png) repeat-x scroll left bottom;
+}
+
+
+.pagination .links b {
+    border: 1px solid #97c975;
+    color: #7aa65d;
+}
+
+.blog-item .readmore{
+background-color: #7AA65D;
+}
+
+@media only screen and (max-width: 979px) {
+	.navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+    background-color: #7AA65D;
+}
+	.nav-collapse .megamenu:after {
+		border-bottom: 6px solid #7aa65d !important;
+	}
+	.nav-collapse .megamenu {
+		border-top: 5px solid #7aa65d !important; 
+		background: #94c474!important; 
+	}
+
+.navbar .btn-navbar {
+  background-color: #7AA65D;
+  background-image: -moz-linear-gradient(top, #f2f2f2, #7aa65d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#7aa65d));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #7aa65d);
+  background-image: -o-linear-gradient(top, #f2f2f2, #7aa65d);
+  background-image: linear-gradient(to bottom, #f2f2f2, #7aa65d);
+  background-repeat: repeat-x;
+  border-color: #7aa65d #7aa65d #275d5d;
+  *background-color: #7aa65d;
+ 
+}
+.navbar .btn-navbar {
+		background: #7AA65D!important;
+	}
+.nav-collapse .dropdown-menu li a:hover {
+	color: #7aa65d;
+}
+	.nav-collapse .nav.megamenu > li.open, .nav-collapse .nav.megamenu > li:hover ,
+	.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+    background-color: #84AE68 !important;
+}
+}

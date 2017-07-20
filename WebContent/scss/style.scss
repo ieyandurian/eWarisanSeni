@@ -1,0 +1,343 @@
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+/*
+ * Variables
+ */
+$color-alpha: #2ecc71;
+$color-beta: #27ae60;
+$color-gamma: #ecf0f1;
+$color-delta: #bdc3c7;
+$color-epsilon: #3498db;
+$color-zeta: #2980b9;
+$color-eta: #e74c3c;
+$color-theta: #c0392b;
+$color-iota: #9b59b6;
+$color-kappa: #8e44ad;
+$color-lambda: #1abc9c;
+$color-my: #16a085;
+
+$unit-alpha: .5em; 
+
+$transition-alpha: .15s;
+
+/*
+ * CSS
+ */
+body {
+  font: 1em/1.5 'Lato', sans-serif;
+  background: $color-gamma;
+}
+ 
+.wrapper {
+  margin: $unit-alpha $unit-alpha $unit-alpha * 2 $unit-alpha;
+  padding: $unit-alpha * 2 $unit-alpha $unit-alpha $unit-alpha;
+  border-top: $unit-alpha solid #fff;
+  border-bottom: ($unit-alpha / 2) solid $color-delta!important;
+  background: #fff;
+  box-shadow: 0 0 0 $unit-alpha rgba($color-delta, 0);
+  
+  @include transition(box-shadow $transition-alpha linear);
+  
+  &:hover {
+    box-shadow: 0 0 0 $unit-alpha rgba($color-delta, .6);
+  }
+  
+  h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0 0 $unit-alpha 0;
+  }
+  
+  h3 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.2;
+  }
+  
+  address {
+    font-style: normal;
+    margin-bottom: $unit-alpha;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: $unit-alpha;
+    border-bottom: .25em solid #fff;
+    padding-bottom: $unit-alpha;
+    
+    &:last-child {
+      border: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+  
+  label {
+    cursor: pointer;
+  }
+  
+  input {
+    width: 1.15em;
+    height: 1.15em;
+    background: #fff;
+    margin-right: .25em;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 .25em #fff;
+    vertical-align: text-bottom;
+    
+    @include appearance(none);
+    @include transition(background $transition-alpha linear);
+    
+    &[type="number"] {
+      width: 1.75em;
+      height: 60%;
+      border: none;
+      padding: 0 $unit-alpha / 2;
+      text-align: center;
+      font-size: 2em;
+      position: relative;
+        
+      &:focus {
+        outline: none;
+        background: $color-gamma;
+      }
+        
+      &::-webkit-inner-spin-button,
+      &::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+         cursor: pointer;
+         width: .5em;
+         height: 100%;
+         text-align: center;
+         color: $color-delta;
+            
+         &:before {
+           position: absolute;
+           left: 0;
+           top: 0;
+           content: '\25B4';
+         }
+              
+         &:after {
+           position: absolute;
+           left: 0;
+           bottom: 0;
+           content: '\25BE';
+         }
+      }
+    }
+    
+    &:checked {
+      background: #ccc;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 8em;
+    border: .25em solid #fff;
+  }
+  
+  table {
+    width: 100%;
+    border-spacing: 0 $unit-alpha / 2;
+    border-collapse: separate;
+    margin-top: (-$unit-alpha / 2);
+  }
+  
+  th {
+    text-align: right;
+    padding-right: .5em * 2;
+  }
+  
+  thead {
+    background: $color-eta;
+    
+    th {
+      text-align: left;
+      padding: $unit-alpha;
+      color: #fff;
+      
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+  
+  tr {
+    &.alpha {
+      background: $color-eta;
+      color: #fff;
+      
+      > th {
+        padding: $unit-alpha $unit-alpha * 2 $unit-alpha $unit-alpha;
+      }
+    }
+  }
+  
+  hr {
+    border: none;
+    border-bottom: $unit-alpha / 2 solid #fff;
+  }
+  
+  button {
+    border: none;
+    padding: $unit-alpha;
+    background: $color-gamma;
+      
+    @include appearance(none);
+    @include transition(background $transition-alpha linear);
+    
+    &:hover {
+      background: $color-delta;
+    }
+      
+    &:before {
+       content: attr(data-icon);
+       padding-right: $unit-alpha;
+    }
+    
+    &.alpha {      
+      &:before {
+         content: "x";
+         color: $color-eta;
+      }
+    }
+    
+    &.beta {
+      background: $color-lambda;
+      color: #fff;
+      font-weight: 700;
+      padding: $unit-alpha * 2;
+      margin-top: $unit-alpha / 2;
+      font-size: 1.25em;
+        
+      &:hover {
+        background: $color-my;
+      }
+      
+      &:before {
+        content: '\25B6';
+      }
+    }
+      
+    &.gamma {      
+      &:before {
+         content: '\25AA';
+         color: $color-delta;
+      }
+          
+      &:hover {
+        &:before {
+          color: $color-gamma;
+        }
+      }
+    }
+  }
+  
+  .text--right {
+    text-align: right;
+  }
+  
+  .helper--alpha {
+    padding-left: $unit-alpha * 3;
+  }
+  
+  .wrapper--box {
+    color: #fff;
+    padding: $unit-alpha;
+    list-style-type: none;
+  }
+  
+  /*
+   * alpha
+   */
+  &.wrapper__alpha {
+    border-color: $color-beta;
+    
+    .wrapper--box {
+      background: $color-beta;
+    }
+    
+    h2 {
+      color: $color-alpha;
+    }
+  }
+  
+  /*
+   * beta
+   */
+  &.wrapper__beta {
+    border-color: $color-zeta;
+    
+    .wrapper--box {
+      background: $color-zeta;
+    }
+    
+    h2 {
+      color: $color-epsilon;
+    }
+    
+    li {
+      border-color: $color-epsilon;
+    }
+    
+    input {
+      &:checked {
+        background: $color-epsilon;
+      }
+    }
+  }
+  
+  /*
+   * gamma
+   */
+  &.wrapper__gamma {
+    border-color: $color-theta;
+    
+    .wrapper--box {
+      border-top: $unit-alpha solid $color-theta;
+      color: #000;
+    }
+    
+    h2, 
+    h3 {
+      color: $color-eta;
+    }
+    
+    hr {
+      border-color: $color-eta;
+    }
+  }
+  
+  /*
+   * delta
+   */
+  &.wrapper__delta {
+    border-color: $color-iota;
+    
+    .wrapper--box {
+      background: $color-kappa;
+    }
+    
+    h2 {
+      color: $color-iota;
+    }
+    
+    li {
+      border-color: $color-iota;
+    }
+    
+    input {
+      &:checked {
+        background: $color-iota;
+      }
+    }
+  }
+}

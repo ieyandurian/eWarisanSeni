@@ -1,0 +1,239 @@
+a:hover, a:focus {
+	color: #e1653b;
+}
+.checkout > a, a.button, input.button {
+    background: url(../image/bg_cart.png) repeat-x scroll left bottom #e7683e;
+}
+.checkout > a:hover, a.button:hover, input.button:hover {
+    background: #3c3c45;
+}
+ul.list li:hover {
+    background-position: left -105px;
+}
+.listmenu.navbar .nav li a:hover {
+    color: #e1653b;
+}
+
+.header-right .login a {
+	color: #e1653b;
+}
+.mainnav-inner {
+    background: url(../image/bg_menu.png) repeat-x scroll 0 0;
+	}
+	.nav.megamenu > li.open, .nav.megamenu > li:hover {
+		background: url(../image/bg_menu_hover.png) repeat-x scroll left center;
+	}
+
+	.navbar .nav > li > .dropdown-menu:after {
+		border-bottom: 6px solid #e1653b;
+	}
+	.dropdown .dropdown-menu li:hover, .megamenu .dropdown-mega li:hover {
+		background-position: left -100px;
+	}
+	.navbar .nav ul li.mega-group li .dropdown-menu-inner,
+	.navbar .nav li .dropdown-menu .dropdown-menu-inner {
+		border-top: 5px solid #e1653b;
+	}
+	.nav .dropdown-toggle:hover .caret, .nav .dropdown-toggle:focus .caret {
+	    border-bottom-color: #e1653b;
+	    border-top-color: #e1653b;
+	}
+	.dropdown-menu > li > a:hover,
+	.dropdown-menu > li > a:focus,
+	.dropdown-submenu:hover > a,
+	.dropdown-submenu:focus > a {
+		color: #e1653b;
+	}
+#header #cart .heading {
+	background-position: left -186px;
+	}
+	#header #cart .heading h4 {
+		color: #3c3c45;
+	}
+	#header #cart .content {
+		border-top: 6px solid #e1653b;
+	}
+#search input {
+    border: 1px solid #e1653b;
+	}
+	#search .button-search {
+		background: url(../image/icon_search.png) no-repeat scroll center center #FFFFFF;
+}
+.pavcontentslider .banner-info {
+    background: url(../image/bg-slider.png) repeat scroll 0 0;
+}	
+.pavcontentslider .carousel-indicators li.active{ 
+	border: 1px solid #e1653b;
+}		
+.banner-info a.bnt {
+    border: 3px solid #5b535e;
+    color: #e1653b;
+	}
+.media h1 span {
+	color: #e1653b;
+	}
+	.product-compare a,
+	.media  a.bnt {
+		background: url(../image/bg_input.png) repeat-x scroll left top #e1653b;
+		border-top: 1px solid #e6683d;
+		border-bottom: 1px solid #d55f37;
+		border-left: 1px solid #db6239;
+		border-right: 1px solid #db6239;
+		color: #fff;
+	}
+.htabs,
+.box-heading h3 {
+    background: url(../image/bg_title.png) repeat scroll left top;
+	}
+	.box-heading h3 span {
+		background: #e1653b;
+	}
+	
+.product-block .name a:hover {
+    color: #e1653b;
+}	
+
+.productcarousel .box-heading h3 span {
+    background: #3c3c45;
+}
+	.product-related .product-block:hover .price-cart input.button,
+	.productcarousel .product-block:hover .price-cart input.button,
+	.product-grid .product-block:hover .price-cart input.button {
+		background: #3c3c45;
+	}
+	.productcarousel .carousel-controls a.carousel-control {
+		background-image: url(../image/carousel_control.png);
+	}
+	.productcarousel .carousel-controls a.left{
+		background-position: left top;
+	}.productcarousel .carousel-controls a.left:hover{
+		background-position: left bottom;
+	}
+	.productcarousel .carousel-controls a.right{
+		background-position: -18px top;
+	}
+	.productcarousel .carousel-controls a.right:hover{
+		background-position: -18px bottom;
+	}
+
+	
+.newsletter-submit .button {
+    background-color:#e1653b!important;
+}
+
+.social .custom_follow a.facebook:hover {
+	background-position: left -108px;
+	}
+	.social .custom_follow a.twitter:hover {
+		background-position: -29px -108px;
+	}
+
+	.social .custom_follow a.mail:hover {
+		background-position: -58px -108px;
+	}
+	.social .custom_follow a.rss:hover {
+		background-position: -87px -108px;
+	}
+	
+.contact-us ul li {
+	background-image: url(../image/icons_contact.png);
+}
+	.contact-us ul li.members {
+		background-position: left 10px;
+	}
+	.contact-us ul li.phone {
+		background-position: left -71px;
+	}
+	.contact-us ul li.fax {
+		background-position: left -140px;
+	}
+	.contact-us ul li.email {
+		background-position: left -210px;
+	}
+.dark .product-block .name a:hover,
+.copyright  a {
+	color: #e1653b;
+}
+
+.product-filter .display a.list:hover,
+.product-filter .display a.list.active {
+	background-position: -16px -44px;
+}
+	.product-filter .display a.grid:hover,
+	.product-filter .display a.grid.active {
+		background-position: left -44px;
+	}
+.htabs a.selected,	
+.category-list ul li a {
+    background-color: #e1653b;
+	}
+	.htabs a,
+	.category-list ul li a:hover {
+		background-color: #3c3c45;
+		color: #fff;
+	}
+	.product-info .description,
+	.product-info .review,
+.product-info .price-cart,
+.product-grid, .product-list {
+    background: url(../image/bg_title.png) repeat-x scroll left bottom;
+}
+
+.box-produce .product-block .wishlist-compare a.wishlist,
+ .product-related .product-block .wishlist-compare a.wishlist,
+ .productcarousel .product-block .wishlist-compare a.wishlist, 
+ .product-grid .product-block .wishlist-compare a.wishlist {
+	background-position: left -116px ;
+}
+.box-produce .product-block .wishlist-compare a.compare,
+.product-related .product-block .wishlist-compare a.compare,
+.productcarousel .product-block .wishlist-compare a.compare,
+.product-grid .product-block .wishlist-compare a.compare {
+	background-position: -43px -116px ;
+}
+
+.pagination .links b {
+    border: 1px solid #f48d6a;
+    color: #e1653b;
+}
+
+.blog-item .readmore{
+background-color: #e1653b;
+}
+@media only screen and (max-width: 979px) {
+	.navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+    background-color: #E1653B;
+}
+	.nav-collapse .megamenu:after {
+		border-bottom: 6px solid #E1653B !important;
+	}
+	.nav-collapse .megamenu {
+		border-top: 5px solid #E1653B !important; 
+		background: #f28f6e!important; 
+	}
+
+.navbar .btn-navbar {
+  background-color: #E1653B;
+  background-image: -moz-linear-gradient(top, #f2f2f2, #E1653B);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#E1653B));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #E1653B);
+  background-image: -o-linear-gradient(top, #f2f2f2, #E1653B);
+  background-image: linear-gradient(to bottom, #f2f2f2, #E1653B);
+  background-repeat: repeat-x;
+  border-color: #E1653B #E1653B #275d5d;
+  *background-color: #E1653B;
+  
+}
+
+.navbar .btn-navbar {
+		background: #cf5c36 !important;
+	}
+.nav-collapse .dropdown-menu li a:hover {
+	color: #E1653B;
+}
+
+	.nav-collapse .nav.megamenu > li.open, .nav-collapse .nav.megamenu > li:hover ,
+	.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+    background-color: #cb8e79 !important;
+}
+}

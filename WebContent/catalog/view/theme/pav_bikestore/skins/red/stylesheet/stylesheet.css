@@ -1,0 +1,242 @@
+a:hover, a:focus {
+	color: #ce2920;
+}
+.checkout > a, a.button, input.button {
+    background:#ce2920;
+}
+.checkout > a:hover, a.button:hover, input.button:hover {
+    background: #048e27;
+}
+ul.list li:hover {
+    background-position: left -181px;
+}
+.listmenu.navbar .nav li a:hover {
+    color: #ce2920;
+}
+
+.header-right .login a {
+	color: #ce2920;
+}
+.mainnav-inner {
+    background: url(../image/bg_menu.png) repeat-x scroll 0 0;
+	}
+	.nav.megamenu > li.open, .nav.megamenu > li:hover {
+		background: url(../image/bg_menu_hover.png) repeat-x scroll left center;
+	}
+
+	.navbar .nav > li > .dropdown-menu:after {
+		border-bottom: 6px solid #ce2920;
+	}
+	.dropdown .dropdown-menu li:hover, .megamenu .dropdown-mega li:hover {
+		background-position: left -176px;
+	}
+	.navbar .nav ul li.mega-group li .dropdown-menu-inner,
+	.navbar .nav li .dropdown-menu .dropdown-menu-inner {
+		border-top: 5px solid #ce2920;
+	}
+	.nav .dropdown-toggle:hover .caret, .nav .dropdown-toggle:focus .caret {
+	    border-bottom-color: #ce2920;
+	    border-top-color: #ce2920;
+	}
+	.dropdown-menu > li > a:hover,
+	.dropdown-menu > li > a:focus,
+	.dropdown-submenu:hover > a,
+	.dropdown-submenu:focus > a {
+		color: #ce2920;
+	}
+#header #cart .heading {
+	background-position: left -372px;
+	}
+	#header #cart .heading h4 {
+		color: #048e27;
+	}
+	#header #cart .content {
+		border-top: 6px solid #ce2920;
+	}
+#search input {
+    border: 1px solid #ce2920;
+	}
+	#search .button-search {
+		background: url(../image/icon_search.png) no-repeat scroll center center #FFFFFF;
+}
+.pavcontentslider .banner-info {
+    background: url(../image/bg-slider.png) repeat scroll 0 0;
+}	
+.pavcontentslider .carousel-indicators li.active{ 
+	border: 1px solid #ce2920;
+}	
+.banner-info a.bnt {
+    border: 3px solid #259856;
+    color: #ce2920;
+	}
+.media h1 span {
+	color: #ce2920;
+	}
+	.product-compare a,
+	.media  a.bnt {
+		background: url(../image/bg_input.png) repeat-x scroll left top #ce2920;
+		border-top: 1px solid #ce2920;
+		border-bottom: 1px solid #b9362f;
+		border-left: 1px solid #af2e27;
+		border-right: 1px solid #af2e27;
+		color: #fff;
+	}
+.htabs,
+.box-heading h3 {
+    background: url(../image/bg_title.png) repeat scroll left top;
+	}
+	.box-heading h3 span {
+		background: #ce2920;
+	}
+	
+.product-block .name a:hover {
+    color: #ce2920;
+}	
+
+.productcarousel .box-heading h3 span {
+    background: #048e27;
+}
+	.product-related .product-block:hover .price-cart input.button,
+	.productcarousel .product-block:hover .price-cart input.button,
+	.product-grid .product-block:hover .price-cart input.button {
+		background: #048e27;
+	}
+	.productcarousel .carousel-controls a.carousel-control {
+		background-image: url(../image/carousel_control.png);
+	}
+	.productcarousel .carousel-controls a.left{
+		background-position: left top;
+	}.productcarousel .carousel-controls a.left:hover{
+		background-position: left bottom;
+	}
+	.productcarousel .carousel-controls a.right{
+		background-position: -18px top;
+	}
+	.productcarousel .carousel-controls a.right:hover{
+		background-position: -18px bottom;
+	}
+
+	
+.newsletter-submit .button {
+    background-color:#ce2920!important;
+}
+
+.social .custom_follow a.facebook:hover {
+	background-position: left -180px;
+	}
+	.social .custom_follow a.twitter:hover {
+		background-position: -29px -180px;
+	}
+
+	.social .custom_follow a.mail:hover {
+		background-position: -58px -180px;
+	}
+	.social .custom_follow a.rss:hover {
+		background-position: -87px -180px;
+	}
+	
+.contact-us ul li {
+	background-image: url(../image/icons_contact.png);
+}
+	.contact-us ul li.members {
+		background-position: left 10px;
+	}
+	.contact-us ul li.phone {
+		background-position: left -71px;
+	}
+	.contact-us ul li.fax {
+		background-position: left -140px;
+	}
+	.contact-us ul li.email {
+		background-position: left -210px;
+	}
+.dark .product-block .name a:hover,
+.copyright  a {
+	color: #ce2920;
+}
+
+.product-filter .display a.list:hover,
+.product-filter .display a.list.active {
+	background-position: -16px top;
+}
+	.product-filter .display a.grid:hover,
+	.product-filter .display a.grid.active {
+		background-position: left top;
+	}
+.htabs a.selected,	
+.category-list ul li a {
+    background-color: #ce2920;
+	}
+	.htabs a,
+	.category-list ul li a:hover {
+		background-color: #048e27;
+		color: #fff;
+	}
+	.product-info .description,
+	.product-info .review,
+.product-info .price-cart,
+.product-grid, .product-list {
+    background: url(../image/bg_title.png) repeat-x scroll left bottom;
+}
+
+.box-produce .product-block .wishlist-compare a.wishlist,
+ .product-related .product-block .wishlist-compare a.wishlist,
+ .productcarousel .product-block .wishlist-compare a.wishlist, 
+ .product-grid .product-block .wishlist-compare a.wishlist{
+	background-position: left -232px ;
+}
+
+
+.box-produce .product-block .wishlist-compare a.compare,
+.product-related .product-block .wishlist-compare a.compare,
+.productcarousel .product-block .wishlist-compare a.compare,
+.product-grid .product-block .wishlist-compare a.compare  {
+	background-position: -43px -232px ;
+}
+
+.pagination .links b {
+    border: 1px solid #e87671;
+    color: #ce2920;
+}
+
+.blog-item .readmore{
+background-color: #CE2920;
+}
+
+@media only screen and (max-width: 979px) {
+	.navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+    background-color: #CE2920;
+}
+	.nav-collapse .megamenu:after {
+		border-bottom: 6px solid #CE2920 !important;
+	}
+	.nav-collapse .megamenu {
+		border-top: 5px solid #CE2920 !important; 
+		background: #f0736c!important; 
+	}
+
+.navbar .btn-navbar {
+  background-color: #CE2920;
+  background-image: -moz-linear-gradient(top, #f2f2f2, #CE2920);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#CE2920));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #CE2920);
+  background-image: -o-linear-gradient(top, #f2f2f2, #CE2920);
+  background-image: linear-gradient(to bottom, #f2f2f2, #CE2920);
+  background-repeat: repeat-x;
+  border-color: #CE2920 #CE2920 #275d5d;
+  *background-color: #CE2920;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+}
+
+.navbar .btn-navbar {
+		background: #ae251e!important;
+	}
+.nav-collapse .dropdown-menu li a:hover {
+	color: #CE2920;
+}
+	.nav-collapse .nav.megamenu > li.open, .nav-collapse .nav.megamenu > li:hover ,
+	.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+    background-color: #cc6862 !important;
+}
+}
